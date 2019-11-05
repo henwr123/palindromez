@@ -3,7 +3,7 @@ var os = require('os');
 
 console.log('This will convert a file into single sentences per lines in a new file.');
 
-fs.readFile('the-divine-comedy.txt', 'utf8', function (err, contents) {
+fs.readFile('sources/moby-dick.txt', 'utf8', function (err, contents) {
 
     var lines = splitSentances(contents);
 
